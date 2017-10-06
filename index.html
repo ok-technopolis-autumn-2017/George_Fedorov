@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head aria-label="todos">
+  <meta charset="utf-8">
+  <title>todos</title>
+</head>
+<body>
+  <div class="main-wrapper">
+    <h1 class="main-tittle" role="banner" aria-label="todo">todos</h1>
+    <div class="todo-frame" role="main">
+      <div class="todo-title">
+        <div class="todo-select-all">
+          <button aria-label="Select all">
+            <img
+            alt="Select all"
+            src="icons/select-all.png">
+          </button>
+          <input class="todo-new-item_input" placeholder="What needs to be done?"
+          aria-label="Input field for new todo">
+        </div>
+      </div>
+      <div class="todo-items">
+        <div class="todo-item" aria-label="HTML">
+            <button aria-label="Completed todo">
+              <img
+              alt="Completed"
+              src="icons/completed.png">
+            </button>
+            <button aria-label="Delete todo">
+              <img
+              alt="Close"
+              src="icons/close.png">
+            </button>
+            HTML
+        </div>
+        <div class="todo-item" aria-label="CSS">
+            <button aria-label="Completed todo">
+            <img
+              alt="Completed"
+              src="icons/completed.png">
+            </button>
+            <button aria-label="Delete todo">
+              <img
+              alt="Close"
+              src="icons/close.png">
+            </button>
+            CSS
+        </div>
+        <div class="todo-item" aria-label="JS">
+            <button aria-label="Completed todo">
+              <img
+              alt="Completed"
+              src="icons/completed.png">
+            </button>
+            <button aria-label="Delete todo">
+              <img
+              alt="Close"
+              src="icons/close.png">
+            </button>
+            JS
+        </div>
+      </div>
+      <div class="todo-bottom">
+        <div class="todo-bottom_left-items">
+          3 items left
+        </div>
+        <div class="todo-bottom_items-filter" aria-label="Todo filter">
+          <input type="radio" name="items-filter" aria-label="All"> All
+          <input type="radio" name="items-filter" aria-label="Active"> Active
+          <input type="radio" name="items-filter" aria-label="Completed"> Completed
+        </div>
+        <div class="todo-bottom_last-action">
+          Clear completed
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
